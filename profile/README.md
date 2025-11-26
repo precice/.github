@@ -1,8 +1,8 @@
-preCICE is an **open-source coupling library** for partitioned multi-physics simulations, including, but not restricted to fluid-structure interaction and conjugate heat transfer simulations.
+preCICE is an **open-source coupling library and ecosystem** for partitioned multi-physics and multi-scale simulations, including surface and volume coupling.
 
-Partitioned means that **preCICE couples existing programs/solvers** capable of simulating a subpart of the complete physics involved in a simulation. This allows for the high flexibility that is needed to keep a decent time-to-solution for complex multi-physics scenarios.
+Partitioned means that **preCICE couples existing programs/solvers** capable of simulating a subpart of the complete physics involved in a simulation. This allows for the high flexibility that is needed to keep a decent time-to-solution for complex coupled problems.
 
-The software offers convenient methods for transient equation coupling, communication, and data mapping. Read more on the [preCICE website](https://precice.org/).
+The software offers convenient methods for transient equation coupling, communication, time interpolation, and data mapping. Read more on the [preCICE website](https://precice.org/).
 
 preCICE consists of several components, most of which are released as part of the [preCICE Distribution](https://precice.org/installation-distribution.html):
 - The [core library](https://github.com/precice/precice) (in C++, with bindings in C and Fortran)
